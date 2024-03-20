@@ -56,3 +56,18 @@ const teams = [
         image: 'barbara-ramos-graphic-designer.jpg',
     }
 ];
+
+// ! MILESTONE 1
+// seleziono i nodi del DOM per mostrare a schermo la info
+const memberInfo = document.querySelector('#list');
+
+// stampo in console i membri del team singolarmente
+for (let i = 0; i < teams.length; i++) {
+    thisMemberTeam = teams[i];
+    console.log(thisMemberTeam);
+
+    for (let key in thisMemberTeam) {
+        // stampo la chiave + il valore
+        console.log(key + ': ' + thisMemberTeam[key]);
+    }
+}
