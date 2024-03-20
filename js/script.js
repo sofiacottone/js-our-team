@@ -70,4 +70,18 @@ for (let i = 0; i < teams.length; i++) {
         // stampo la chiave + il valore
         console.log(key + ': ' + thisMemberTeam[key]);
     }
+
+    // ! MILESTONE 2
+    // creo l'elemento da stampare nel DOM
+    const newLi = `
+    <li class="my-2">
+        <h3 class="fw-bold mb-1">${thisMemberTeam.name}</h3>
+        <p class="fst-italic mb-1">${thisMemberTeam.role}</p>
+        <p>${thisMemberTeam.image}</p>
+    </li>
+    `;
+    console.log(newLi);
+
+    // stampo il nuovo elemento nel DOM
+    memberInfo.innerHTML += newLi;
 }
