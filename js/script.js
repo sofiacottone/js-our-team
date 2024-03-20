@@ -21,3 +21,38 @@
 // Angela Lopez, Social Media Manager, angela-lopez-social-media-manager.jpg
 // Scott Estrada, Developer, scott-estrada-developer.jpg
 // Barbara Ramos, Graphic Designer, barbara-ramos-graphic-designer.jpg
+
+// MILESTONE 0:
+// creo l'array con i membri del team
+const teams = [
+    {
+        name: 'Wayne Barnett',
+        role: 'Founder & CEO',
+        image: 'wayne-barnett-founder-ceo.png',
+    },
+    {
+        name: 'Angela Caroll',
+        role: 'Chief Editor',
+        image: 'walter-gordon-office-manager.jpg'
+    },
+    {
+        name: 'Walter Gordon',
+        role: 'Office Manager',
+        image: 'walter-gordon-office-manager.png',
+    },
+    {
+        name: 'Angela Lopez',
+        role: 'Social Media Manager',
+        image: 'angela-lopez-social-media-manager.png',
+    },
+    {
+        name: 'Scott Estrada',
+        role: 'Developer',
+        image: 'scott-estrada-developer.jpg',
+    },
+    {
+        name: 'Barbara Ramos',
+        role: 'Graphic Designer',
+        image: 'barbara-ramos-graphic-designer.jpg',
+    }
+];
